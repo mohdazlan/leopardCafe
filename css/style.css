@@ -1,0 +1,88 @@
+/*---------------------------------------------------------
+                    COLOR GUIDE
+
+GOLD:rgb(172,140,71)
+WHITE:#e2e2e2
+-----------------------------------------------------------*/
+
+
+/*---------------------------------------------------------
+                    GLOBAL STYLES
+-----------------------------------------------------------*/
+
+body{
+    padding: 6%;
+    color: rgb(226,226,226);
+    background: rgb(15,15,15);
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Alegreya', serif;
+}
+
+.container{
+    background: rgba(15,15,15,0.74);
+    padding: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+a:link{
+    color: rgb(172,140,71);
+}
+
+a:visited{
+    color: rgb(129,105,54);
+}
+
+a:hover{
+    color: rgb(246, 213, 151);
+}
+
+/*---------------------------------------------------------
+                    GLOBAL FOOTER STYLES
+-----------------------------------------------------------*/
+footer {
+    padding: 10px 0;
+}
+
+footer h4{
+    text-transform: uppercase;
+}
+
+footer p{
+    margin: 0;
+}
+
+ .logo{
+     display: block;
+     width: 150px;
+     margin: 0 auto;
+ }
+
+ /*---------------------------------------------------------
+                   NAVIGATION STYLES
+-----------------------------------------------------------*/
+ .main-navigation ul{
+     padding-left: 0;
+ }
+
+ .main-navigation li{
+     list-style: none;
+     text-align: center;
+     margin:25px 0;
+ }
+
+ .main-navigation a{
+     display: block;
+     padding: 15px 10px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
