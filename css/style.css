@@ -118,6 +118,7 @@ footer p{
 
 .button {
     background-color: rgb(170,140,60);
+    border-radius: 15px ;
 }
 
 .button a{
@@ -125,4 +126,36 @@ footer p{
     text-decoration: none;
     font-style: normal;
     text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    
+}
+
+ 
+ /*---------------------------------------------------------
+                   MENU STYLES
+-----------------------------------------------------------*/
+
+@media screen and (min-width:750px) {
+    .main-navigation {
+        min-height: 100px;
+        border-top:2px solid rgb(121, 79, 79) ;
+        border-bottom: 2px solid rgb(121, 79, 79) ;
+    }
+
+    .main-navigation a{
+        background: none;
+    }
+    .main-navigation ul{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .main-navigation li {
+        float: left;
+        margin-left: 20px;
+        width: 30%;
+    }
+    
 }
